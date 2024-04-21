@@ -1,0 +1,145 @@
+body{
+    font-family: 'Comic Sans MS';
+    
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    text-align: center; 
+    margin-top:20%;    
+   
+}
+ .main-page .Profile-picture img{ 
+    width: 60%;
+    max-width: 100%;
+    max-height: 100%;
+    
+
+}
+.Information {
+    margin-top: 2em;  
+}
+.Information h1{
+    color: rgb(32, 31, 31);
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Goudy Old Style';
+    
+}
+.Information h3{
+    margin-top:.5em;
+    color: rgb(44, 44, 44);
+    font-weight: 500;
+}
+.Information p{
+    font-size: 1.2rem;
+}
+.Information a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-weight: 300;
+    font-weight: bold;
+    color: brown;
+}
+.btn-box{
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+    margin-bottom:2em;
+}
+.btn-box button{
+    margin-left: 10px;
+    width: 22%;
+    height: 50px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btn-box button svg{
+    margin-right: .8em;
+    width:35px;  
+}
+.btn-box button .text{
+    font-weight: bold;
+    color: black;
+}
+.btn-box  .EmailBtn{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+.btn-box .LinkdenBtn{
+    background-color: #0799ca;
+    border: none;
+    outline: none;
+
+}
+.btn-box .LinkdenBtn svg{
+    color: white;   
+}
+.btn-box .LinkdenBtn .text{
+    color: white;
+}
+
+.main-info h4{
+
+ justify-content: center;
+ text-align: left;
+ margin-left: 20%;
+ margin-top: 20px;
+ font-weight: 600;
+ font-family: 'Harrington';
+ font-weight: bold;
+
+}
+.main-info  p{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1rem;
+    font-weight: 400;
+    
+
+}
+.footer-part{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color:rgb(50, 50, 50);
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    
+}
+
+.footer-part{
+    background-color: #161619;
+    text-align: center;
+    padding: 10px 0px;
+}
+.footer-part .square-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-part .square-icon i {
+    color: #333;
+    font-size: 25px;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #e0e0e0;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+
+
+
+
+ 
+
